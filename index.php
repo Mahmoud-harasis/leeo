@@ -23,7 +23,7 @@
 
     <div class="header-1">
 
-        <a href="#" class="logo"> <img class="logo" src="./image/leeo.png" alt=""> </a>
+        <a href="index.php" class="logo"> <img class="logo" src="./image/leeo.png" alt=""> </a>
 
         <form action="" class="search-form">
             <input type="search" name="" placeholder="search here..." id="search-box">
@@ -33,19 +33,19 @@
         <div class="icons">
             <div id="search-btn" class="fas fa-search"></div>
             <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-shopping-cart"></a>
-            <div id="login-btn" class="fas fa-user"></div>
+            <a href="cart.php" class="fas fa-shopping-cart"></a>
+            <a href="login.php" class="fas fa-user"></a>
         </div>
 
     </div>
 
     <div class="header-2">
         <nav class="navbar">
-            <a href="#home">Home</a>
-            <a href="#featured">Shop</a>
-            <a href="#arrivals">arrivals</a>
-            <a href="#reviews">Countact</a>
-            <a href="#blogs">About</a>
+            <a href="index.php">Home</a>
+            <a href="prudact.php">Shop</a>
+            <a href="custom.php">custom</a>
+            <a href="contact.php">Countact</a>
+            <a href="about.php">About</a>
         </nav>
     </div>
 
@@ -56,35 +56,16 @@
 <!-- bottom navbar  -->
 
 <nav class="bottom-navbar">
-    <a href="#home" class="fas fa-home"></a>
-    <a href="#featured" class="fas fa-list"></a>
-    <a href="#arrivals" class="fas fa-tags"></a>
-    <a href="#reviews" class="fas fa-comments"></a>
-    <a href="#blogs" class="fas fa-blog"></a>
+    <a href="index.php" class="fas fa-home"></a>
+    <a href="prudact.php" class="fas fa-list"></a>
+    <a href="custom.php" class="fas fa-tags"></a>
+    <a href="contact.php" class="fas fa-comments"></a>
+    <a href="about.php" class="fas fa-blog"></a>
 </nav>
 
-<!-- login form  -->
 
-<div class="login-form-container">
 
-    <div id="close-login-btn" class="fas fa-times"></div>
 
-    <form action="">
-        <h3>sign in</h3>
-        <span>username</span>
-        <input type="email" name="" class="box" placeholder="enter your email" id="">
-        <span>password</span>
-        <input type="password" name="" class="box" placeholder="enter your password" id="">
-        <div class="checkbox">
-            <input type="checkbox" name="" id="remember-me">
-            <label for="remember-me"> remember me</label>
-        </div>
-        <input type="submit" value="sign in" class="btn">
-        <p>forget password ? <a href="#">click here</a></p>
-        <p>don't have an account ? <a href="#">create one</a></p>
-    </form>
-
-</div>
 
 <!-- home section starts  -->
 
@@ -160,7 +141,7 @@
 
 <section class="featured" id="featured">
 
-    <h1 class="heading"> <span>featured </span> </h1>
+    <h1 class="heading"> <span>New t-shert </span> </h1>
 
     <div class="swiper featured-slider">
 
@@ -170,15 +151,15 @@
                 <div class="icons">
                     <a href="#" class="fas fa-search"></a>
                     <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
+                    <a href="singlProdact.php" class="fas fa-eye"></a>
                 </div>
                 <div class="image">
                     <img src="image/m4.png" alt="">
                 </div>
                 <div class="content">
-                    <h3>featured </h3>
+                    <h3>t-shert  </h3>
                     <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
+                    <a href="cart.php" class="btn">add to cart</a>
                 </div>
             </div>
 
@@ -186,15 +167,15 @@
                 <div class="icons">
                     <a href="#" class="fas fa-search"></a>
                     <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
+                    <a href="singlProdact.php" class="fas fa-eye"></a>
                 </div>
                 <div class="image">
                     <img src="image/m5.png" alt="">
                 </div>
                 <div class="content">
-                    <h3>featured </h3>
+                    <h3>t-shert </h3>
                     <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
+                    <a href="cart.php" class="btn">add to cart</a>
                 </div>
             </div>
 
@@ -202,15 +183,15 @@
                 <div class="icons">
                     <a href="#" class="fas fa-search"></a>
                     <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
+                    <a href="singlProdact.php" class="fas fa-eye"></a>
                 </div>
                 <div class="image">
                     <img src="image/m6.png" alt="">
                 </div>
                 <div class="content">
-                    <h3>featured </h3>
+                    <h3>t-shert </h3>
                     <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
+                    <a href="cart.php" class="btn">add to cart</a>
                 </div>
             </div>
 
@@ -218,15 +199,15 @@
                 <div class="icons">
                     <a href="#" class="fas fa-search"></a>
                     <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
+                    <a href="singlProdact.php" class="fas fa-eye"></a>
                 </div>
                 <div class="image">
                     <img src="image/m7.png" alt="">
                 </div>
                 <div class="content">
-                    <h3>featured </h3>
+                    <h3>t-shert </h3>
                     <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
+                    <a href="cart.php" class="btn">add to cart</a>
                 </div>
             </div>
 
@@ -234,15 +215,15 @@
                 <div class="icons">
                     <a href="#" class="fas fa-search"></a>
                     <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
+                    <a href="singlProdact.php" class="fas fa-eye"></a>
                 </div>
                 <div class="image">
                     <img src="image/m.png" alt="">
                 </div>
                 <div class="content">
-                    <h3>featured </h3>
+                    <h3>t-shert </h3>
                     <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
+                    <a href="cart.php" class="btn">add to cart</a>
                 </div>
             </div>
 
@@ -250,15 +231,15 @@
                 <div class="icons">
                     <a href="#" class="fas fa-search"></a>
                     <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
+                    <a href="singlProdact.php" class="fas fa-eye"></a>
                 </div>
                 <div class="image">
                     <img src="image/m1.png" alt="">
                 </div>
                 <div class="content">
-                    <h3>featured </h3>
+                    <h3>t-shert </h3>
                     <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
+                    <a href="cart.php" class="btn">add to cart</a>
                 </div>
             </div>
 
@@ -266,15 +247,15 @@
                 <div class="icons">
                     <a href="#" class="fas fa-search"></a>
                     <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
+                    <a href="singlProdact.php" class="fas fa-eye"></a>
                 </div>
                 <div class="image">
                     <img src="image/m2.png" alt="">
                 </div>
                 <div class="content">
-                    <h3>featured </h3>
+                    <h3>t-shert </h3>
                     <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
+                    <a href="cart.php" class="btn">add to cart</a>
                 </div>
             </div>
 
@@ -282,15 +263,15 @@
                 <div class="icons">
                     <a href="#" class="fas fa-search"></a>
                     <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
+                    <a href="singlProdact.php" class="fas fa-eye"></a>
                 </div>
                 <div class="image">
                     <img src="image/m3.png" alt="">
                 </div>
                 <div class="content">
-                    <h3>featured </h3>
+                    <h3>t-shert </h3>
                     <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
+                    <a href="cart.php" class="btn">add to cart</a>
                 </div>
             </div>
 
@@ -298,15 +279,15 @@
                 <div class="icons">
                     <a href="#" class="fas fa-search"></a>
                     <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
+                    <a href="singlProdact.php" class="fas fa-eye"></a>
                 </div>
                 <div class="image">
                     <img src="image/m4.png" alt="">
                 </div>
                 <div class="content">
-                    <h3>featured </h3>
+                    <h3>t-shert </h3>
                     <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
+                    <a href="cart.php" class="btn">add to cart</a>
                 </div>
             </div>
 
@@ -314,15 +295,15 @@
                 <div class="icons">
                     <a href="#" class="fas fa-search"></a>
                     <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
+                    <a href="singlProdact.php" class="fas fa-eye"></a>
                 </div>
                 <div class="image">
                     <img src="image/m5.png" alt="">
                 </div>
                 <div class="content">
-                    <h3>featured </h3>
+                    <h3>t-shert </h3>
                     <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
+                    <a href="cart.php" class="btn">add to cart</a>
                 </div>
             </div>
 
@@ -657,143 +638,15 @@
     
 </section>
 
-<!-- reviews section ends -->
-
-<!-- blogs section starts  -->
-<!-- 
-<section class="blogs" id="blogs">
-
-    <h1 class="heading"> <span>our blogs</span> </h1>
-
-    <div class="swiper blogs-slider">
-
-        <div class="swiper-wrapper">
-
-            <div class="swiper-slide box">
-                <div class="image">
-                    <img src="image/blog-1.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>blog title goes here</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
-                    <a href="#" class="btn">read more</a>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <div class="image">
-                    <img src="image/blog-2.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>blog title goes here</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
-                    <a href="#" class="btn">read more</a>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <div class="image">
-                    <img src="image/blog-3.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>blog title goes here</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
-                    <a href="#" class="btn">read more</a>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <div class="image">
-                    <img src="image/blog-4.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>blog title goes here</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
-                    <a href="#" class="btn">read more</a>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <div class="image">
-                    <img src="image/blog-5.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>blog title goes here</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
-                    <a href="#" class="btn">read more</a>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-
-</section> -->
-
-<!-- blogs section ends -->
-
 <!-- footer section starts  -->
-
-<section class="footer">
-
-    <div class="box-container">
-
-        <div class="box">
-            <h3>our locations</h3>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> india </a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> USA </a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> russia </a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> france </a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> japan </a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> africa </a>
-        </div>
-
-        <div class="box">
-            <h3>quick links</h3>
-            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
-            <a href="#"> <i class="fas fa-arrow-right"></i> featured </a>
-            <a href="#"> <i class="fas fa-arrow-right"></i> arrivals </a>
-            <a href="#"> <i class="fas fa-arrow-right"></i> reviews </a>
-            <a href="#"> <i class="fas fa-arrow-right"></i> blogs </a>
-        </div>
-
-        <div class="box">
-            <h3>extra links</h3>
-            <a href="#"> <i class="fas fa-arrow-right"></i> account info </a>
-            <a href="#"> <i class="fas fa-arrow-right"></i> ordered items </a>
-            <a href="#"> <i class="fas fa-arrow-right"></i> privacy policy </a>
-            <a href="#"> <i class="fas fa-arrow-right"></i> payment method </a>
-            <a href="#"> <i class="fas fa-arrow-right"></i> our serivces </a>
-        </div>
-
-        <div class="box">
-            <h3>contact info</h3>
-            <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
-            <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
-            <a href="#"> <i class="fas fa-envelope"></i> shaikhanas@gmail.com </a>
-            <img src="image/worldmap.png" class="map" alt="">
-        </div>
-        
-    </div>
-
-    <div class="share">
-        <a href="#" class="fab fa-facebook-f"></a>
-        <a href="#" class="fab fa-twitter"></a>
-        <a href="#" class="fab fa-instagram"></a>
-        <a href="#" class="fab fa-linkedin"></a>
-        <a href="#" class="fab fa-pinterest"></a>
-    </div>
-
-   
-</section>
-
+<?php include("footer.php")  ?>
 <!-- footer section ends -->
 
 <!-- loaderb  -->
 
-<div class="loader-container">
+<!-- <div class="loader-container">
     <img src="image/leeo.png" alt="">
-</div>
+</div> -->
 
 
 
